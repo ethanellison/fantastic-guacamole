@@ -12,9 +12,8 @@ Architecture to follow
     1. Setting 
     2. Attacking
     3. First contact
-- [ ] Looker studio connector to analyze the data in Looker
+- [] Looker studio connector to analyze the data in Looker
 - [ ] Looker report
 - [ ]  
-
 
 ### Project 2: 
