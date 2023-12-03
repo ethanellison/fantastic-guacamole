@@ -1,0 +1,28 @@
+
+version: 2
+
+models:
+  - name: teams
+    description: "Teams from Live Perfbook table"
+    columns:
+      - name: team_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+      - name: team
+        description: "Team name"
+
+  - name: players
+    description: "Players from Live Perfbook table"
+    columns:
+      - name: player_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+      - name: player_name
+        description: "Player name"
+      - name: player_number
+        description: "Player jersey number"
+      

@@ -1,0 +1,22 @@
+dbt_adb:
+  outputs:
+    dev:
+      type: oracle
+      user: "{{ env_var('DBT_ORACLE_USER') }}"
+      pass: "{{ env_var('DBT_ORACLE_PASSWORD') }}"
+      database: "{{ env_var('DBT_ORACLE_DATABASE') }}"
+      tns_name: "{{ env_var('DBT_ORACLE_TNS_NAME') }}"
+      schema: "{{ env_var('DBT_ORACLE_SCHEMA') }}"
+      threads: 4
+      # connection_string: "{{ env_var('DBT_ORACLE_CONNECT_STRING') }}"
+      # host: '{{ env_var(''DBT_ORACLE_HOST'') }}'
+      # password: '{{ env_var(''DBT_ORACLE_PASSWORD'') }}'
+      # port: 1522
+      # protocol: tcps
+      # schema: '{{ env_var(''DBT_ORACLE_SCHEMA'') }}'
+      # service: '{{ env_var(''DBT_ORACLE_SERVICE'') }}'
+      # threads: 1
+      # type: oracle
+      # user: '{{ env_var(''DBT_ORACLE_USER'') }}'
+      # dbname: "{{ env_var('DBT_ORACLE_DATABASE') }}"
+  target: dev
