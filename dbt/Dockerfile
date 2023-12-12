@@ -1,5 +1,5 @@
 # Use an official Oracle Instant Client image as a parent image
-FROM --platform=linux/arm64 python:3.10.7-slim-bullseye 
+FROM python:3.10.7-slim-bullseye 
 # system startup
 RUN apt-get update \
   && apt-get dist-upgrade -y \
@@ -39,12 +39,9 @@ ENV DBT_ORACLE_DATABASE=playground
 
 ENV DBT_ORACLE_TNS_NAME=playground_high
 
-ENV PYTHON_USERNAME=username
-ENV PYTHON_PASSWORD=password
-ENV PYTHON_CONNECTSTRING=connect_string
 
 # Define the default command to run when the container starts
 # CMD ["python3", "script.py"]
 
 # Set the working directory to /app
-WORKDIR /usr/app/
+WORKDIR /usr/app/dbt_adb

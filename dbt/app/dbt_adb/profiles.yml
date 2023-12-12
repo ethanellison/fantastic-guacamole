@@ -19,4 +19,15 @@ dbt_adb:
       # type: oracle
       # user: '{{ env_var(''DBT_ORACLE_USER'') }}'
       # dbname: "{{ env_var('DBT_ORACLE_DATABASE') }}"
+    user:
+      type: oracle
+      user: "{{ env_var('DBT_ORACLE_USER') }}"
+      pass: "{{ env_var('DBT_ORACLE_PASSWORD') }}"
+      database: "{{ env_var('DBT_ORACLE_DATABASE') }}"
+      tns_name: "{{ env_var('DBT_ORACLE_TNS_NAME') }}"
+      schema: USER 
+      threads: 4
+      # connection_string: "{{ env_var('DBT_ORACLE_CONNECT_STRING') }}"
+      # host: '{{ env_var(''DBT_ORACLE_HOST'') }}'
+      # password: '{{ env_var(''DBT_ORACLE_PASSWORD'') }}'
   target: dev

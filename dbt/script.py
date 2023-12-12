@@ -8,9 +8,9 @@ connect_string = os.environ.get("PYTHON_CONNECTSTRING")
 connection = oracledb.connect(user=username, password=password, dsn=connect_string)
 
 with connection.cursor() as cursor:
+    sql = """select systimestamp from dual"""
     try:
 
-        sql = """select systimestamp from dual"""
         for r in cursor.execute(sql):
             print(r)
 
