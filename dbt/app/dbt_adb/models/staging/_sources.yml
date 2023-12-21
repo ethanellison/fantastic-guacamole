@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: live_pb 
     database: playground  
-    schema: admin  
+    schema: ADMIN  
     tables:
       - name: live_pb
   - name: serve_speeds
