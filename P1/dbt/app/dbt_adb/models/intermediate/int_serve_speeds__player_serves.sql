@@ -40,7 +40,7 @@ SELECT
 	speed,
 	case 
 		when result in ('IN', 'PASS') then 'IN'
-		when result in ('MISS', 'OUT') then 'MISS'
+		when result in ('MISS', 'OUT') then 'OUT'
 		else result
 	end as result,
 	opponent
