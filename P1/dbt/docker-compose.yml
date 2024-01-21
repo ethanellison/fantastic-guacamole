@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  my-dbt:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: my-dbt:latest
+    container_name: dbt_container
+    env_file:
+      - .env
+    command: [/bin/bash]
+    #network_mode: host
+    volumes:
+      - ./app:/usr/app
+      - ./.config:/usr/.config
+    ports:
+      - 8080:8080
