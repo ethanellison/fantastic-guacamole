@@ -21,6 +21,8 @@ utils.chooseCRANmirror(ind=1)  # select the first mirror in the list
 datavolley = importr("datavolley")
 ovlytics = importr("ovlytics")
 
+# TODO function to lookup valid team names in xata.io database
+
 
 def replace_NA(x):
     if x == rpy2.rinterface_lib.na_values.NA_Character:
@@ -55,8 +57,16 @@ def process_to_df(url, match_date):
 
 items = [
     {
-        "url": "https://data04.perfbook.pro/scripts/download.php?id=JjIwMjQwMTEyXzEzODI1X2RhbGhvdXNlLXNoZXJicm9va2VfMC0zLmR2d3x8aHR0cHM6Ly9kYXRhMDQucGVyZmJvb2sucHJvL19EQVRBL3ZvbGxleWJhbGwvMjAyNC9maWxlXzI1OGMwYjgxNmI0ZWMwNjUxNTcyMTU0MzMzM2RmZGUzMTgyNTA0N2I5Y2I0NDAyMC5kdnc=",
-        "match_date": "2024-01-19",
+        "url": "https://data04.perfbook.pro/_DATA/volleyball/2024/file_f900c9373826224ae7a24d4185135d780e85682b0bf72619.dvw",
+        "match_date": "2024-01-26",
+    },
+    {
+        "url": "https://data04.perfbook.pro/scripts/download.php?id=JjIwMjQwMTI3XzE0MDM3X2NhcmFiaW5zLWxhdmFsXzMtMi5kdnd8fGh0dHBzOi8vZGF0YTA0LnBlcmZib29rLnByby9fREFUQS92b2xsZXliYWxsLzIwMjQvZmlsZV9hMmZhZmY5ODQ0MDdlMzY3MjliYmZkYTI4Y2E5ZWFkNTcwNmJkMzZhODhiMTAxMDMuZHZ3",
+        "match_date": "2024-01-27",
+    },
+    {
+        "url": "https://data04.perfbook.pro/_DATA/volleyball/2024/file_f7d7b82a4c5ad78980a315cc6be41a410c9c4a9088b11314.dvw",
+        "match_date": "2024-01-27",
     },
 ]
 
