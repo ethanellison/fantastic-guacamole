@@ -2,7 +2,7 @@
 
 ## Monorepo for personal projects
 ### P1: Volleyball dvw file analysis
-![P1 Architecture](/.eraser/XMmPmon1a15VrKfLl5NV___RdoVNMO293MC7rH6kLBadSgeQJ53___---figure---Zfagm14I_c7u4jTSp4zt6---figure---IsQdEi7aeCqww_hiEN1NSw.png "P1 Architecture")
+![P1 Architecture](/.eraser/XMmPmon1a15VrKfLl5NV___RdoVNMO293MC7rH6kLBadSgeQJ53___---figure---fQf0byosXLkuW5Xf7m7_Y---figure---IsQdEi7aeCqww_hiEN1NSw.png "P1 Architecture")
 
 - [x] Process .dvw using jupyter notebook with R and python kernels and load to OCI object storage
 - [x] Live table feed daily job incrementing table from prefixed files (pb*)
@@ -13,7 +13,7 @@
 - [ ] [] Looker studio connector to analyze the data in Looker
 - [ ] Looker report
 - [ ] 
-### Project 2:
+### P2: 
 
 
 
