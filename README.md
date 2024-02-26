@@ -4,7 +4,7 @@
 Follow along my data engineering, architecture and homelab journey.
 
 ### P1: Volleyball dvw file analysis
-![P1 Architecture](/.eraser/XMmPmon1a15VrKfLl5NV___RdoVNMO293MC7rH6kLBadSgeQJ53___---figure---WyUO05vBJllVcHDF7QkBh---figure---IsQdEi7aeCqww_hiEN1NSw.png "P1 Architecture")
+![P1 Architecture](/.eraser/XMmPmon1a15VrKfLl5NV___RdoVNMO293MC7rH6kLBadSgeQJ53___---figure---oTDWXc5iRmv7EkXTVNhjO---figure---IsQdEi7aeCqww_hiEN1NSw.png "P1 Architecture")
 
 - [x] Process .dvw using jupyter notebook with R and python kernels and load to OCI object storage
 - [x] Live table feed daily job incrementing table from prefixed files (pb*)
