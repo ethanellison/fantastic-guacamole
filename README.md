@@ -4,7 +4,7 @@
 This repo contains source files, configurations and documentation for my personal projects related to data engineering, data analytics and devops for my homelab.
 
 ### P1: Volleyball dvw file analysis
-![P1 Architecture](/.eraser/XMmPmon1a15VrKfLl5NV___RdoVNMO293MC7rH6kLBadSgeQJ53___---figure---vPhaGfZhysTdpgIWW2N48---figure---IUCYPCcW3bYZgK9bMV4sYA.png "P1 Architecture")
+![P1 Architecture](/.eraser/XMmPmon1a15VrKfLl5NV___RdoVNMO293MC7rH6kLBadSgeQJ53___---figure---pbHlFkPr3opf9BDP614d4---figure---IUCYPCcW3bYZgK9bMV4sYA.png "P1 Architecture")
 
 Process dvw files using python scripts and load to object storage. The data warehouse contains a table that appends records from prefixed objects in object storage. 
 
